@@ -55,5 +55,8 @@ export class AppComponent {
     this.displayList = matchingSatellites;
   }
 
+    test() {
+      console.log(this.displayList)
+    }
   
  }
