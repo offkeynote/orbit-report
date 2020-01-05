@@ -1,1 +1,14 @@
+ORBIT-REPORT
 
+INSTALL
+Run:
+  npm install
+  ng serve
+  
+IF you run into error: "npm ERR! Unexpected string in JSON at position 164 while parsing '{ ....."
+Run:
+  rm package-lock.json
+then 
+  npm install
+  ng serve
+---------------------------------
